@@ -11,10 +11,10 @@ var User = require('./user.js');
 var app = express();
 
 var CLIENT_ID = 'OawcXJ9-fI4AsAUlbgZXFwp_sYVNiOAT';
-var SERVER_TOKEN = 'aSigsg_FRPE8PMx_8f1yiXARwhY-VYAhUXrunEWB';
+var SERVER_TOKEN = '';
 var CLIENT_SECRET = '_3nYx_ComyCHiEhsJ3RmnPY9mki0ctbIwgBx0qza';
 var TWILIO_ACCOUNT_SID = 'AC4fb679f8f00d69d24b125cef3547b4d2';
-var TWILIO_AUTH_TOKEN = '5b7bc1faedccccdfde4a388e85cd6327';
+var TWILIO_AUTH_TOKEN = '';
 
 
 app.use(bodyParser());
@@ -25,7 +25,7 @@ var lastNumber;
 var client = new twilio.RestClient('TWILIO_ACCOUNT_SID', 'TWILIO_AUTH_TOKEN');
 
 
-mongoose.connect('mongodb://root:abc123@ds043477.mongolab.com:43477/toober', function(err) {
+mongoose.connect('', function(err) {
 	if (err) {
 		console.log(err);
 	} else {
