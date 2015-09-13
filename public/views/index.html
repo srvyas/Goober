@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>
+	<div class = "col-md-offset-3 col-md-6">
+		<h1> Toober </h1>
+		<h3> Hail an Uber via SMS </h3>
+		<!-- <form action="https://login.uber.com/oauth/authorize?response_type=code&client_id=OawcXJ9-fI4AsAUlbgZXFwp_sYVNiOAT&scope=profile&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fuber" method="get"> -->
+			<form action="https://login.uber.com/oauth/authorize" method = "get">
+			<div class = "input-group">
+				<input type = "hidden" value="code" name="response_type">
+				<input type = "hidden" value="OawcXJ9-fI4AsAUlbgZXFwp_sYVNiOAT" name="client_id">
+				<input type = "hidden" value="profile" name="scope">
+				<input type = "hidden" value="http://localhost:3000/uber" name="redirect_uri">
+				<input type = "text" class = "form-control" placeholder = "phone #" name="phoneNum">
+			</div>
+			  <button type="button submit" class="btn btn-success btn-lg">Submit</button>
+		</form>
+	  <div>
+</body>
+
+<!-- <form action="https://login.uber.com/oauth/authorize?response_type=code&client_id=OawcXJ9-fI4AsAUlbgZXFwp_sYVNiOAT&scope=profile&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fuber" method="get"> -->
+
+</html>
