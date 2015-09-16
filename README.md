@@ -9,13 +9,13 @@ Pickup Location : Destination Location
 i.e - 619 E University Ave Ann Arbor MI : 2260 HAYWARD ST
 
 #What's Next?
-## Integrating Bitcoin Payments 
+### Integrating Bitcoin Payments 
 Lots of bitcoin enthusiasts will use product for this sole reason. 
 
-## Cleaning up the code base 
+### Cleaning up the code base 
 Callback hell. Needs to be fixed. 
 
-## Putting into production 
+### Putting into production 
 Building an appealing website. Improving user experience while texting.
 
 #Disclaimer
