@@ -20,6 +20,6 @@ Building an appealing website. Improving user experience while texting.
 
 #Disclaimer
 In alpha. No option to cancel the uber, so you'll have to pull out your phone to do so.
-The code is extremely sloppy as well, don't make too much fun of me. This was built at MHacks 6. 
+The code is extremely sloppy as well, don't make too much fun of me. Toober was built at MHacks 6. 
 
 
