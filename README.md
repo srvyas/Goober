@@ -3,9 +3,13 @@ hail an Uber via SMS
 
 # How to Use
 1) Set up the local environment
+
 2) Register your number on the website
+
 3) send a sms with this format 
+
 Pickup Location : Destination Location
+
 i.e - 619 E University Ave Ann Arbor MI : 2260 HAYWARD ST
 
 #What's Next?
