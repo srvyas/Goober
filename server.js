@@ -12,7 +12,7 @@ var app = express();
 
 var CLIENT_ID = 'OawcXJ9-fI4AsAUlbgZXFwp_sYVNiOAT';
 var SERVER_TOKEN = '';
-var CLIENT_SECRET = '_3nYx_ComyCHiEhsJ3RmnPY9mki0ctbIwgBx0qza';
+var CLIENT_SECRET = '';
 var TWILIO_ACCOUNT_SID = 'AC4fb679f8f00d69d24b125cef3547b4d2';
 var TWILIO_AUTH_TOKEN = '';
 
